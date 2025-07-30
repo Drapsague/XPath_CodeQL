@@ -114,7 +114,7 @@ public class App {
                 InputSource inputXml = new InputSource(xmlFile);
             
             
-                String query = "
+                String query = ""+
                                "' and pass/text()='" + password + "']" +
                                "/secret/text()";
                 String secret = (String)xPath.evaluate(query, inputXml, XPathConstants.STRING);
@@ -222,7 +222,7 @@ public class App {
             
                 XPath xPath = XPathFactory.newInstance().newXPath();
                 InputSource inputXml = new InputSource(xmlFile);
-                String query = "
+                String query = ""+
                                "' and pass/text()='" + password + "']" +
                                "/secret/text()";
                 String secret = (String)xPath.evaluate(query, inputXml, XPathConstants.STRING);
