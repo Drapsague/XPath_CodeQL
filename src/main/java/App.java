@@ -1,3 +1,20 @@
+import juliet.support.*;
+
+import javax.servlet.http.*;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.net.Socket;
+
+import java.util.logging.Level;
+
+import javax.xml.xpath.*;
+
+import org.xml.sax.InputSource;
+
+import org.apache.commons.lang.StringEscapeUtils;
+
 public class App {
         public void ident() throws Throwable
         {
